@@ -70,4 +70,9 @@ class Person {
                 ", age=" + age +
                 '}';
     }
+
+    public static int compareAges(Person personOne, Person personTwo) {
+        Integer ageOne = personOne.getAge();
+        return ageOne.compareTo(personTwo.getAge());
+    }
 }
