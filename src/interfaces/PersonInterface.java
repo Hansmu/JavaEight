@@ -14,5 +14,12 @@ public interface PersonInterface {
     /**
      * Person implements PersonInterface {}
      * person.getPersonInfo();
+     *
+     * To add a static method just change the default to static, so
+     * static String getPersonInfo(Person person)
+     * Call it straight off of the interface.
+     * PersonInterface.getPersonInfo(person);
+     * As it's static, can't refer to the instance methods, so use
+     * person.getName() etc in it instead.
      * **/
 }
