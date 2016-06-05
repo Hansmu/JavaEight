@@ -1,4 +1,4 @@
-package examples;
+package examples.lambdas;
 
 import java.util.ArrayList;
 import java.util.Collections;

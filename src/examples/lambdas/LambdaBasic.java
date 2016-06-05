@@ -1,4 +1,4 @@
-package examples;
+package examples.lambdas;
 
 public class LambdaBasic {
     /** Lambda is an anonymous function aka a function without a name.

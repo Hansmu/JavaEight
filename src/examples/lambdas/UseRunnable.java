@@ -1,4 +1,4 @@
-package examples;
+package examples.lambdas;
 
 /**
  * Created by Hans on 4.06.2016.
